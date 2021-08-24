@@ -36,8 +36,7 @@ def verify_hashes(password,hashed_text):
 
 feature_names_best = ['age', 'sex', 'steroid', 'antivirals', 'fatigue', 'spiders', 'ascites','varices', 'bilirubin', 'alk_phosphate', 'sgot', 'albumin', 'protime','histology']
 
-gender_dict = {"male":1,"female":2}
-feature_dict = {"No":1,"Yes":2}
+
 
 
 def get_value(val,my_dict):
