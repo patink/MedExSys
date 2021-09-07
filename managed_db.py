@@ -1,7 +1,4 @@
-# DB
-import sqlite3
-conn = sqlite3.connect('usersdata.db')
-c = conn.cursor()
+
 
 # Functions
 
